@@ -7,7 +7,7 @@ function App() {
       .then((fruits) => {
         console.log(fruits.body)
       })
-      .catch((err) => console.err(err.message))
+      .catch((err) => console.error(err.message))
   })
   return (
     <div>
